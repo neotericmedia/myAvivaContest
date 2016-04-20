@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+  <!-- Head section -->
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -22,12 +23,13 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
-  <body>
+  <!-- end Head section -->
+  <body data-controller="overview-page" data-action="render">
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-
+    <!-- Header section -->
     <header class="l-header">
       <div class="container">
           <div class="row">
@@ -67,14 +69,14 @@
           </div>
       </div>
     </header>
+    <!-- end of the header section -->
 
 
-
-
+    <!-- Main content section -->
     <section class="page">
       <div class="container">
           <div class="row">
-
+              <!-- main menu full size  -->
               <aside id="sideNav" class="col-lg-2 col-md-2 col-sm-12">
                   <ul id="sNav">
                     <li class="col-sm-5ths col-md-2 col-lg-12 selected"><a href="#" class="home">MyAviva</a></li>
@@ -84,8 +86,9 @@
                     <li class="col-sm-5ths col-md-2 col-lg-12"><a href="#" class="security">Security Details</a></li>
                   </ul>
               </aside>
-
-              <div class="col-lg-10 col-md-10 col-sm-12">
+              <!-- end of section main menu full size -->
+              <!-- right side content section -->
+              <article class="col-lg-10 col-md-10 col-sm-12">
 
                 <div class="l-home--nbaMessage"></div>
 
@@ -119,14 +122,17 @@
                     </div>
                   </div>
                 </div>
-              </div>
+
+              </article>
+              <!-- end right side content section -->
           </div>
+
       </div>
     </section>
+    <!-- end of Main content -->
 
 
-
-
+    <!-- section footer-->
     <footer>
       <div class="container">
         <div class="row">
@@ -142,13 +148,7 @@
         </div>
       </div>
     </footer>
-
-
-
-
-
-
-
+    <!-- end of section footer -->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -183,6 +183,10 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+
+    <script src="scripts/app_claims.js"></script>
+    <script src="scripts/app_claims_utilities.js"></script>
+    <script src="scripts/app_claims_plugins.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
