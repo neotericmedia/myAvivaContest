@@ -1,0 +1,20 @@
+a {
+  color: $blue;
+}
+a:hover {
+  text-decoration: none;
+}
+.page {
+  background: #F8F8F8;
+  padding-bottom: 60px;
+}
+
+//Overwrite columns to match UK layout
+@include md-up {
+  .col-lg-2 {
+      width: 12%;
+  }
+  .col-lg-10 {
+      width: 88%;
+  }
+}

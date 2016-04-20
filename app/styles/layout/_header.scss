@@ -1,0 +1,23 @@
+.l-header {
+  border-bottom: 1px solid #d5d5d5;
+  background: $darkYellow url("../images/beam.png") no-repeat center top;
+
+  &--navbar-brand {
+  }
+  &--register-login-links {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: right;
+  }
+  &--userMessage {
+
+  }
+  &--user {
+
+  }
+  &--lastLoggedIn {
+
+  }
+
+
+}

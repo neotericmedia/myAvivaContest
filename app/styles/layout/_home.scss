@@ -1,0 +1,41 @@
+.l-home {
+
+  &--h1 {
+    font-size: 1.6em;
+    color: $blue
+  }
+  &--nbaMessage {
+    min-height: 500px;
+    background: #ccc url(http://placehold.it/944x500);
+    margin-top: 20px;
+    border-radius: 0.63em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.05);
+  }
+  &--pod {
+    min-height: 320px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 0.63em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 0px 15px 15px 15px;
+  }
+  &--linkHeading {
+
+  }
+  &--botAligned {
+
+  }
+  &--podContent {
+
+  }
+
+
+}
+.pod-yellow {
+  background: linear-gradient(to bottom, $lightYellow, $darkYellow);
+}
+.pod-blue {
+  background: linear-gradient(to bottom, #e5f6ff, #c9edff);
+}

@@ -1,0 +1,67 @@
+
+.navbar {
+  border-radius: 0px;
+  position: relative;
+  min-height: 70px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+}
+
+//toggle
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background-image: url(../images/icons/menu-bars.svg), linear-gradient(to bottom, #fef165, #ffda03);
+    border: 1px solid #ead353;
+    box-shadow: 0 .1em .1em 0 rgb(255, 255, 255);
+}
+.navbar-default .navbar-toggle .navMenu {
+  float:left;
+  font-size:.75em;
+  margin-right:10px;
+  color:$blue;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $blue;
+}
+
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.container-fluid > .navbar-collapse {
+  background: #fff;
+  border-radius: 0.63em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.05);
+  position: absolute;
+  z-index: 5000;
+  width: 100%;
+}
+
+.navbar-brand img {
+  max-width: 132px;
+  padding-top: 5px;
+}
+
+
+.navbar-default .navbar-nav > li {
+    border-bottom: 1px #ececec solid;
+}
+.navbar-default .navbar-nav > li > a {
+    color: $blue;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li:last-child {
+    border-bottom: none;
+}
+
+
+@include sm-up {
+  .selected {
+    background-color: $blue;
+  }
+  .selected a {
+    color: #fff;
+  }
+}
