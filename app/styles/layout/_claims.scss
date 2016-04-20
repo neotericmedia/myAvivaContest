@@ -1,0 +1,53 @@
+.l-claims {
+
+  &--h1--title {
+    font-size: 2.5em;
+    color: $blue;
+    padding-left: 20px;
+  }
+  &--h1 {
+    font-size: 1.6em;
+    color: $blue;
+  }
+  &--pod {
+    min-height: 220px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-top-left-radius:0.63em;
+    border-top-right-radius:0.63em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.05);
+    padding: 20px 40px 30px 40px;
+  }
+  &--pod--bottom {
+    min-height: 220px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.05);
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px 30px 40px;
+  }
+  &--pod-sNav .col-sm-5ths {
+    width: 20%;
+    float: left;
+    color: #fff;
+  }
+  &--pod-sNav {
+    margin: 0px;
+  }
+  &--pod-sNav li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  &--pod-sNav .col-sm-5ths a {
+    color: #fff;
+  }
+  &--pod-sNav .col-sm-5ths a {
+    color: #fff;
+  }
+
+}
+.pod-dark-blue {
+  background-color: $blue;
+}

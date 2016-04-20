@@ -1,0 +1,44 @@
+.l-policy {
+
+  &--h1--title {
+    font-size: 2.5em;
+    color: $blue;
+    padding-left: 20px;
+  }
+  &--h1 {
+    font-size: 1.6em;
+    color: $blue;
+  }
+  &--pod {
+    min-height: 220px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #ccc;
+    border-radius:0.63em;
+    padding: 20px 40px 30px 40px;
+  }
+  &--pod-sNav .col-sm-5ths {
+    width: 20%;
+    float: left;
+    color: #fff;
+  }
+  &--pod-sNav {
+    margin: 0px;
+  }
+  &--pod-sNav li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  &--pod-sNav .col-sm-5ths a {
+    color: #fff;
+  }
+  &--pod-sNav .col-sm-5ths a {
+    color: #fff;
+  }
+
+}
+.pod-dark-blue {
+  background-color: $blue;
+}
