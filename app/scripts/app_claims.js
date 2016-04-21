@@ -56,6 +56,48 @@ var claims_app = {
     }
 
   },
+  'damage-assessment':{
+    init: function () {
+      // Availability validations initialization
+      console.log("initialization financial page")
+    },
+    settings: function () {
+      // Availability settings
+    },
+    render: function () {
+      // render
+      console.log("Execution of the financial page")
+    }
+
+  },
+  'my-recovery':{
+    init: function () {
+      // Availability validations initialization
+      console.log("initialization financial page")
+    },
+    settings: function () {
+      // Availability settings
+    },
+    render: function () {
+      // render
+      console.log("Execution of the financial page")
+    }
+
+  },
+  'repair-status':{
+    init: function () {
+      // Availability validations initialization
+      console.log("initialization financial page")
+    },
+    settings: function () {
+      // Availability settings
+    },
+    render: function () {
+      // render
+      console.log("Execution of the financial page")
+    }
+
+  },
   'garage-details-page':{
     init: function () {
       // Availability validations initialization
