@@ -21,8 +21,11 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   </head>
   <body>
+  <body data-controller="damage-assessment" data-action="render">
+
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -118,29 +121,144 @@
                     </div>
                     <div class="l-claims--pod--bottom">
                       <h1 class="l-claims--h1">Damage Assessment</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra ornare
-                        massa nec posuere. Cras ut enim felis. In euismod, mi et sagittis pharetra,
-                        nunc turpis vestibulum risus, in tincidunt diam dui vel augue. Maecenas libero
-                        sem, sagittis vitae laoreet ut, sagittis non lectus. Integer in ex sit amet odio
-                        pretium aliquet. Nullam lacus mauris, auctor a risus vel, gravida malesuada diam.
-                        Nunc urna velit, ultricies vel posuere vitae, volutpat rhoncus nibh. Nulla semper
-                        tempus egestas. Etiam massa dui, luctus et lacus vehicula, laoreet pellentesque felis.</p>
 
-                        <p>Nam at condimentum turpis, eget congue tellus. Fusce vel cursus mi. In ut erat fermentum velit feugiat
-                        dictum et id orci. Morbi iaculis rhoncus fringilla. Donec dignissim enim lacus, vel cursus nulla accumsan non.
-                        Nullam placerat sodales placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat
-                        volutpat. Pellentesque eget auctor arcu. In aliquet tempus euismod. Aliquam erat volutpat. Suspendisse mattis
-                        tincidunt sapien sed laoreet. Ut nec lacinia nibh.</p>
 
-                        <p>Donec aliquam lectus facilisis leo dignissim dignissim. Fusce ut tortor arcu. Etiam tortor justo,
-                        interdum ut leo non, sodales viverra orci. Praesent in sapien lorem. Donec maximus, turpis non dictum
-                        facilisis, felis orci venenatis lorem, at convallis nibh ex id magna. Integer eu leo mauris. Vivamus
-                        iaculis tincidunt mauris. Pellentesque volutpat elit dolor, venenatis tincidunt lorem condimentum eget.
-                        Proin vitae libero nec leo convallis fermentum eu vel tellus. Vivamus consequat neque ut blandit ullamcorper.
-                        Donec lacus elit, vehicula vitae nibh vitae, aliquam lobortis sem. Aenean venenatis augue vel mauris
-                        egestas, sit amet gravida mauris facilisis.</p>
 
-                        <p>Morbi metus eros, vehicula in </p>
+
+
+                      <div class="col-lg-8 col-md-8 col-sm-12">
+
+
+
+
+                        <div class="col-lg-6 articleDrop">
+
+                          <strong>Estimate Date</strong><br>
+                          <strong>Inspection Date</strong><br>
+                          <strong>Appointment Date</strong><br>
+                          <strong>Estimated Date of Completion</strong>
+
+                        </div>
+                        <div class="col-lg-6 articleDrop">
+
+                          <strong>0000-00-00</strong><br>
+                          <strong>0000-00-00</strong><br>
+                          <strong>0000-00-00</strong><br>
+                          <strong>0000-00-00</strong><br>
+
+                        </div>
+
+                        <div style="clear:both"></div>
+
+
+                        <h1 class="l-claims--h1" style="margin-bottom:0px;">Appraiser</h1>
+                        <div class="col-lg-12 articleDrop">
+
+                          <strong>Don's Auto Appraisal Service</strong><br>
+                          18 Lockport Ave, Etobicoke, ON M8Z 2R7<br>
+                          <img alt="aviva" src="images/phone_green.png" style="max-width:20px"/> <span style="font-size:1.5em">000-000-0000</span>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <img alt="aviva" src="images/map.png" style="max-width:40px"/> <a href="#"> View Map</a>
+
+                        </div>
+
+                        <div style="clear:both"></div>
+
+
+                        <div class="col-lg-6 articleDrop">
+
+                          <strong>Parts, Paint Materials & Labour</strong><br>
+                          <strong>Less Deductible</strong><br>
+                          <strong>Taxes and Total</strong><br>
+
+                        </div>
+
+
+
+                        <div class="col-lg-6 articleDrop">
+
+                          <strong>$2800</strong><br>
+                          <strong style="color:red">- $500</strong><br>
+                          <strong>$2300</strong><br>
+
+                        </div>
+
+
+                        <div style="clear:both; height:30px;"></div>
+
+                        <div style="background-color:#ececec; display:block; padding: 5px 0 0 0"><div style="padding: 0 20px 0 20px">
+                          <h1 class="l-claims--h1" style="margin-bottom:0px;">Rental</h1>
+                          <div class="col-lg-12 articleDrop">
+
+                            <strong>Discount Car and Truck Rental</strong><br>
+                            18 Lockport Ave, Etobicoke, ON M8Z 2R7<br>
+
+                            <img alt="aviva" src="images/phone_green.png" style="max-width:20px"/> <span style="font-size:1.5em">000-000-0000</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img alt="aviva" src="images/map.png" style="max-width:40px"/> <a href="#"> View Map</a>
+
+                            <br>
+
+                            <div class="col-lg-6">
+
+                              <strong>Reservation Number</strong><br>
+                              <strong>Start Date</strong><br>
+                              <strong>End Date</strong>
+
+                            </div>
+
+                            <div class="col-lg-6">
+
+                              <strong>000</strong><br>
+                              <strong>000</strong><br>
+                              <strong>000</strong>
+
+                            </div>
+
+
+
+                          </div>
+                          <div style="clear:both"></div>
+
+                        </div></div>
+
+
+
+                        <div style="clear:both"></div>
+
+
+
+
+
+                      </div>
+
+
+
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+
+                        <div class="l-claims--pod--sm" style="margin-top:0px">
+                          <h1 class="l-claims--h1">Tell us about your experience</h1>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra ornare
+                          massa nec posuere.
+                          <button type="button" class="btn btn-success btn-lg" style="width: 100%"><i class="fa fa-comment-o" aria-hidden="true"></i> Feedback</button>
+                        </div>
+                        <div class="l-claims--pod--sm">
+                          <h1 class="l-claims--h1"><img alt="aviva" src="images/phone_green.png" style="max-width:20px"/> Contact Us</h1>
+                          <span style="font-size:1.5em">000-000-0000</span><br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra ornare
+                          massa nec posuere.
+                        </div>
+
+                      </div>
+
+
+
+
+
+
+
+
+
                     </div>
 
 
@@ -226,6 +344,9 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+    <script src="scripts/app_claims.js"></script>
+    <script src="scripts/app_claims_utilities.js"></script>
+    <script src="scripts/app_claims_plugins.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>

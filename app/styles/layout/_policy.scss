@@ -1,7 +1,7 @@
 .l-policy {
 
   &--h1--title {
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: $blue;
     padding-left: 20px;
     font-weight: lighter;
@@ -68,7 +68,30 @@ h3.entryH3 {
 
 
 
+
+
+@include md-up {
+  .l-policy--h1--title {
+    font-size: 3.5em;
+    color: $blue;
+    padding-left: 20px;
+    font-weight: lighter;
+    margin-top: 40px;
+  }
+  .col-md-8 {
+    margin-bottom: 0px
+  }
+}
+
+
+
+.col-md-8 {
+  display: block;
+  margin-bottom: 50px
+}
+
+
 .makeAClaim {
-  background: url('../../images/make_a_claim.png') no-repeat center top;
+  background: url('../images/make_a_claim.png') no-repeat center top;
   background-size: cover;
 }

@@ -11,7 +11,22 @@ a:hover {
 ul.l-claims--pod-sNav .col-sm-3 {
   width: 25%;
   float: left;
+  overflow: hidden;
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
+
+
+
+
+  .col-sm-4 {
+      width: 33.3333333333%;
+      float: left;
+      overflow: hidden;
+  }
+
+
 
 //Overwrite columns to match UK layout
 @include md-up {
