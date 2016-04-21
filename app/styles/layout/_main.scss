@@ -8,6 +8,10 @@ a:hover {
   background: #F8F8F8;
   padding-bottom: 60px;
 }
+ul.l-claims--pod-sNav .col-sm-3 {
+  width: 25%;
+  float: left;
+}
 
 //Overwrite columns to match UK layout
 @include md-up {
