@@ -47,8 +47,11 @@
     border-radius: 0.63em;
     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.05);
     border: 1px solid #ccc;
-    text-align: center;
+    text-align: left;
     padding: 0px 15px 15px 15px;
+  }
+  &--pod--sm:first-child {
+    margin-top: -50px;
   }
 
   &--pod-sNav .col-sm-5ths {
@@ -94,19 +97,19 @@
   //   padding: 85px  0px  8px  0px;
   // }
   &--pod-sNav a.accidentDetails {
-    background: url('../../images/btn1_track_accident_details.png') no-repeat center top
+    background: url('../images/btn1_track_accident_details.png') no-repeat center top
   }
   &--pod-sNav a.damageAssessment {
-    background: url('../../images/btn2_track_damage_assessment.png') no-repeat center top
+    background: url('../images/btn2_track_damage_assessment.png') no-repeat center top
   }
   &--pod-sNav a.repairStatus {
-    background: url('../../images/btn3_track_repair_status.png') no-repeat center top
+    background: url('../images/btn3_track_repair_status.png') no-repeat center top
   }
   &--pod-sNav a.myRecovery {
-    background: url('../../images/btn4_track_my_recovery_.png') no-repeat center top
+    background: url('../images/btn4_track_my_recovery_.png') no-repeat center top
   }
   &--pod-sNav a.trackSettlement {
-    background: url('../../images/btn5_track_settlement.png') no-repeat center top
+    background: url('../images/btn5_track_settlement.png') no-repeat center top
   }
 
   &--pod-sNav a.accidentDetails:hover,
@@ -144,6 +147,10 @@
   display: block;
   border-bottom: 1px solid #000;
   padding: 20px 0 20px 0;
+  min-height: 85px;
+}
+.noBorder {
+  border-bottom: none;
 }
 
 

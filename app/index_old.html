@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
-
+  <!-- Head section -->
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -22,11 +22,14 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   </head>
+  <!-- end Head section -->
   <body data-controller="overview-page" data-action="render">
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-
+    <!-- Header section -->
     <header class="l-header">
       <div class="container">
           <div class="row">
@@ -66,162 +69,70 @@
           </div>
       </div>
     </header>
+    <!-- end of the header section -->
 
 
-
-
+    <!-- Main content section -->
     <section class="page">
       <div class="container">
           <div class="row">
-
+              <!-- main menu full size  -->
               <aside id="sideNav" class="col-lg-2 col-md-2 col-sm-12">
                   <ul id="sNav">
-                    <li class="col-sm-5ths col-md-2 col-lg-12"><a href="#" class="home">MyAviva</a></li>
-                    <li class="col-sm-5ths col-md-2 col-lg-12 selected"><a href="#" class="policies">Claim Tracking</a></li>
+                    <li class="col-sm-5ths col-md-2 col-lg-12 selected"><a href="#" class="home">MyAviva</a></li>
+                    <li class="col-sm-5ths col-md-2 col-lg-12"><a href="#" class="policies">Your Polices</a></li>
                     <li class="col-sm-5ths col-md-2 col-lg-12"><a href="#" class="claimsAlt">Products Discounts</a></li>
                     <li class="col-sm-5ths col-md-2 col-lg-12"><a href="#" class="security">Personal Details</a></li>
                     <li class="col-sm-5ths col-md-2 col-lg-12"><a href="#" class="security">Security Details</a></li>
                   </ul>
               </aside>
+              <!-- end of section main menu full size -->
+              <!-- right side content section -->
+              <article class="col-lg-10 col-md-10 col-sm-12">
 
-              <div class="col-lg-10 col-md-10 col-sm-12">
+                <div class="l-home--nbaMessage"></div>
 
                 <div class="row">
 
-
-
-
-
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="pull-left">
-                      <h1 class="l-claims--h1--title">24/7 Claim Tracking</h1>
-                    </div>
-                    <div class="pull-right">
-                      <span class="l-claims--breads"><strong>Policy No:</strong> 00000000000&nbsp;&nbsp;&nbsp;<strong>Policy Expirey Date:</strong> 0000-00-00</span>
+                  <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="l-home--pod pod-yellow">
+                      <h1 class="l-home--h1">Le mie polizze</h1>
+                      Entra e consulta i dettagli delle tue polizze
                     </div>
                   </div>
 
-
-
-
-
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-
-                    <div class="l-claims--pod pod-dark-blue"><span class="l-claims--pod--dashedLine"></span>
-
-                          <ul class="l-claims--pod-sNav">
-                            <li class="col-sm-3 col-md-3 col-lg-3"><a href="claims_overview.html" class="accidentDetails active">Accident Details</a></li>
-                            <li class="col-sm-3 col-md-3 col-lg-3"><a href="claims_damageAssessment.html" class="damageAssessment">Damage Assessment</a></li>
-                            <li class="col-sm-3 col-md-3 col-lg-3"><a href="claims_repairStatus.html" class="repairStatus">Repair Status</a></li>
-                            <li class="col-sm-3 col-md-3 col-lg-3"><a href="claims_myRecovery.html" class="myRecovery">My Recovery</a></li>
-                            <!-- <li class="col-sm-5ths col-md-2 col-lg-12"><a href="#" class="trackSettlement">Track Settlement</a></li> -->
-                          </ul>
-
+                  <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="l-home--pod pod-blue">
+                      <h1 class="l-home--h1">Comunicazioni e Documenti</h1>
+                      Accedi alle Comunicazioni dedicate a te e ai Documenti utili
                     </div>
-                    <div class="l-claims--pod--bottom">
-                      <h1 class="l-claims--h1">Accident Details</h1>
-
-
-
-                        <div class="col-lg-8 col-md-8 col-sm-8">
-
-                          <div class="l-claims--accidentIcons">
-                              <div class="col-lg-4 col-md-4 col-sm-4"><img src="images/icon_accident1.png" alt="Smiley face"></div>
-                              <div class="col-lg-4 col-md-4 col-sm-4"><img src="images/icon_accident2.png" alt="Smiley face"></div>
-                              <div class="col-lg-4 col-md-4 col-sm-4"><img src="images/icon_accident3.png" alt="Smiley face"></div>
-                          </div>
-
-
-                          <div class="col-lg-6 articleDrop">
-
-                            <strong>Reported Date</strong> 0000-00-00<br>
-                            <strong>Closed Date</strong> In Progress
-
-                          </div>
-
-                          <div class="col-lg-6 articleDrop">
-
-                            <strong>Type of Claim</strong> Auto<br>
-                            <strong>Fault</strong> Partially at fault
-
-                          </div>
-
-                          <div class="col-lg-6 articleDrop">
-
-                            <strong>Loss Location</strong><br>Corner of warden and eglington<br>
-
-                          </div>
-
-
-                          <div class="col-lg-6 articleDrop">
-
-                            <img alt="aviva" src="images/map.png" style="max-width:40px"/> <a href="#"> View Map</a>
-
-                          </div>
-
-
-                          <div class="col-lg-12 articleDrop noBorder">
-
-                            <strong>Vehicles involved in loss</strong><br>
-                            2012 Dodge Neon and  2014 Toyota Camry
-
-                          </div>
-
-
-                        </div>
-
-
-
-                        <div class="col-lg-4 col-md-4 col-sm-4">
-
-                          <div class="l-claims--pod--sm" style="margin-top:0px">
-                            <h1 class="l-claims--h1">Tell us about your experience</h1>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra ornare
-                            massa nec posuere.
-                            <button type="button" class="btn btn-success btn-lg" style="width: 100%"><i class="fa fa-comment-o" aria-hidden="true"></i> Feedback</button>
-                          </div>
-                          <div class="l-claims--pod--sm">
-                            <h1 class="l-claims--h1"><img alt="aviva" src="images/phone_green.png" style="max-width:20px"/> Contact Us</h1>
-                            <span style="font-size:1.5em">000-000-0000</span><br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra ornare
-                            massa nec posuere.
-                          </div>
-
-                        </div>
-
-
-
-
-
-                    </div>
-
-
-
                   </div>
 
+                  <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="l-home--pod">
+                      <h1 class="l-home--h1">App Aviva Italia</h1>
+                      Porta la nostra App sempre con te
+                    </div>
+                  </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+                  <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="l-home--pod">
+                      <h1 class="l-home--h1">La tua opinione conta</h1>
+                      Puntiamo sempre al miglioramento, aiutaci a crescere
+                    </div>
+                  </div>
                 </div>
-              </div>
+
+              </article>
+              <!-- end right side content section -->
           </div>
+
       </div>
     </section>
+    <!-- end of Main content -->
 
 
-
-
+    <!-- section footer-->
     <footer>
       <div class="container">
         <div class="row">
@@ -237,13 +148,7 @@
         </div>
       </div>
     </footer>
-
-
-
-
-
-
-
+    <!-- end of section footer -->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -278,6 +183,7 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+
     <script src="scripts/app_claims.js"></script>
     <script src="scripts/app_claims_utilities.js"></script>
     <script src="scripts/app_claims_plugins.js"></script>
