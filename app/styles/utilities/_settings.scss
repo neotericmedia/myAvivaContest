@@ -8,3 +8,8 @@ $lightGrey: #F8F8F8;
 //nav
 $navbar-default-bg: rgb(255,255,255);
 $navbar-default-border: rgb(255,255,255);
+
+//hide particular element
+.visually-hidden{
+  display:none;
+}
