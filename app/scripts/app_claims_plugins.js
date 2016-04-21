@@ -36,7 +36,7 @@ claims_app.plugins = {
 
     $("#btn-feedback").on("click",function(){
       console.log("rating popup ");
-      //alertify.ratingFeedBackDialog($('#form-rating')[0]).set({transition:'slide',message: 'Transition effect: slide'});
+      alertify.ratingFeedBackDialog($('#form-rating')[0]).set({transition:'slide',message: 'Transition effect: slide'});
     });
 
   }
