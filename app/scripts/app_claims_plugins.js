@@ -21,7 +21,26 @@ claims_app.plugins = {
     })();
 
 
+  },
+  initRateYo: function(){
+
+    $("[id^='rateYo']").rateYo({
+      rating: 3.2,
+      spacing: "10px"
+    }).rateYo("option", "onChange", function () {
+      $('.section-hidden').show(200, 'linear');
+    });
+
+  },
+  setListenerRating: function(){
+
+    $("#btn-feedback").on("click",function(){
+      console.log("rating popup ");
+      //alertify.ratingFeedBackDialog($('#form-rating')[0]).set({transition:'slide',message: 'Transition effect: slide'});
+    });
+
   }
+
 
 }
 

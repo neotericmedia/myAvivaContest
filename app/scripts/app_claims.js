@@ -2,10 +2,14 @@ var claims_app = {
 
   common: {
     init: function () {
-      //initialize on line chat
-      claims_app.plugins.initOnLineChat();
       //initialize the rating feedback
       claims_app.utilities.initializeRatingFeedBackDialog();
+      //initialize the rating engine
+      claims_app.plugins.initRateYo();
+      //rating plugin
+      claims_app.plugins.setListenerRating();
+      //initialize on line chat
+      claims_app.plugins.initOnLineChat();
 
     }
   },
@@ -13,7 +17,7 @@ var claims_app = {
     init: function () {
       // Availability validations initialization
       console.log("initialization of overview the page");
-      claims_app.controller.enableOverviewController();
+      claims_app.plugins.setListenerRating();
 
 
     },
