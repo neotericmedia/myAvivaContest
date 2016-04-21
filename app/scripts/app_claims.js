@@ -5,7 +5,7 @@ var claims_app = {
       //initialize on line chat
       claims_app.plugins.initOnLineChat();
       //initialize the rating feedback
-      gi_app.utilities.initializeRatingFeedBackDialog();
+      claims_app.utilities.initializeRatingFeedBackDialog();
 
     }
   },
@@ -13,7 +13,8 @@ var claims_app = {
     init: function () {
       // Availability validations initialization
       console.log("initialization of overview the page");
-      //alertify.retrieveQuotePostalCodeAuthorizationDialog($('#postalCodeAuthorizationDialogForm')[0]).setting({'modal': true, 'closable': false});
+      claims_app.controller.enableOverviewController();
+
 
     },
     settings: function () {
