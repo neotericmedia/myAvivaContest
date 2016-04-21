@@ -12,7 +12,8 @@ claims_app.controller = {
   enableOverviewController: function(){
     console.log("This is where we initialize the controllers for the overview page");
     $("#btn-test").on("click", function(){
-      alertify.RatingFeedBackDialog($('#ratingFeedbackDialogFormHeader')[0]).setting({'modal': true, 'closable': false});
+      //alertify.ratingFeedBackDialog($('#form-rating')[0]).set('selector', 'input[type="password"]');
+      alertify.ratingFeedBackDialog($('#form-rating')[0]).set({transition:'slide',message: 'Transition effect: slide'});
     });
 
 

@@ -17,27 +17,31 @@ claims_app.utilities = {
     claims_app.utilities.exec(controller, action);
 
   },
-  initializeRatingFeedBackDialog: function () {
-    return (
-    alertify.RatingFeedBackDialog || alertify.dialog('RatingFeedBackDialog', function factory() {
-      return {
-        build: function () {
-          this.setHeader($('#ratingFeedbackDialogFormHeader')[0]);
-        },
-        setup: function () {
+  initializeRatingFeedBackDialog: function (){
+
+    return(
+        alertify.ratingFeedBackDialog || alertify.dialog('ratingFeedBackDialog',function(){
           return {
-            buttons: [],
-            focus: {element: 0},
-            options: {
-              maximizable: false,
-              resizable: false,
-              padding: false
+            main:function(content){
+              this.setContent(content);
+            },
+            setup:function(){
+              return {
+                options:{
+                  basic:true,
+                  maximizable:false,
+                  resizable:false,
+                  padding:false
+                }
+              };
+            },
+            settings:{
+              selector:undefined
             }
           };
-        }
-      };
-    }, true, 'alert')
-    );
+        })
+    )
+
   }
 
 

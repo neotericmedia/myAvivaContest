@@ -13,3 +13,11 @@ $navbar-default-border: rgb(255,255,255);
 .visually-hidden{
   display:none;
 }
+
+//Additions to fit the alertify for the hackaton contest
+.rating-box{
+  div.left-box,div.right-box{
+    display:inline-block;
+    width: 48%;
+  }
+}
