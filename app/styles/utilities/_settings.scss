@@ -30,3 +30,20 @@ $navbar-default-border: rgb(255, 255, 255);
 .section-hidden{
   display:none;
 }
+
+
+
+.btn-success {
+    color: #fff;
+    background: linear-gradient(to bottom, #fef165, #ffda03);
+    border: 1px solid #ead353;
+    box-shadow: 0 0.1em 0.1em 0 white;
+    color: $blue;
+}
+.btn-success:hover {
+    color: #fff;
+    background: linear-gradient(to bottom, #ffda03,#fef165);
+    border: 1px solid $darkYellow;
+    box-shadow: 0 0.1em 0.1em 0 white;
+    color: $blue;
+}
