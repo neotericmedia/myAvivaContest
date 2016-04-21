@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -22,10 +23,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
-  <body>
-    <!--[if lt IE 10]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+  <body data-controller="overview-page" data-action="render">
 
 
     <header class="l-header">
@@ -279,6 +277,9 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+    <script src="scripts/app_claims.js"></script>
+    <script src="scripts/app_claims_utilities.js"></script>
+    <script src="scripts/app_claims_plugins.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>

@@ -16,6 +16,28 @@ claims_app.utilities = {
     claims_app.utilities.exec(controller);
     claims_app.utilities.exec(controller, action);
 
+  },
+  initializeRatingFeedBackDialog: function () {
+    return (
+    alertify.RatingFeedBackDialog || alertify.dialog('RatingFeedBackDialog', function factory() {
+      return {
+        build: function () {
+          this.setHeader($('#ratingFeedbackDialogFormHeader')[0]);
+        },
+        setup: function () {
+          return {
+            buttons: [],
+            focus: {element: 0},
+            options: {
+              maximizable: false,
+              resizable: false,
+              padding: false
+            }
+          };
+        }
+      };
+    }, true, 'alert')
+    );
   }
 
 
